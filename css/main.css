@@ -107,7 +107,7 @@ h1 {
 
 .nav a {
     text-decoration: none;
-    color: #EEEEEE;
+    color: #eeeeee;
     display: block;
 }
 
@@ -116,17 +116,12 @@ h1 {
     color:white;
 }
 
-.different {
-    width: 75%;
-    display: inline-block;
+.dark {
+    background-color: #a8a8a9;
 }
 
 .light {
-    background-color: #e2e2e2;
-}
-
-.lighter {
-    background-color: #efefef;
+    background-color: #eeeeee;
 }
 
 .intro {
@@ -215,10 +210,6 @@ buttom {
     
     .nav {
         text-align: left;
-}
-
-    .mars {
-        text-align: left;
     }
     
     .navfooter {
@@ -230,13 +221,4 @@ buttom {
 }
 
 @media only screen and (min-width: 60em) {
-    
-    .data dd {
-        float: left;
-    }
-    .data dt {
-        float: left;
-        clear: left;
-        width: 30%;
-    }
 }
