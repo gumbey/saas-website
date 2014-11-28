@@ -51,7 +51,7 @@ a {
 body {
     margin: 0;
     padding: 0;
-    background-color: #B7D36A
+    background-color: #474646
 }
 
 h1{
@@ -91,34 +91,18 @@ img {
   width: 100%;
 }
 
-.smallimg {
-  display: block;
-  width: 50%;
-  margin: 0 auto;
-}
-
-.leftf {
-    float: left;
+.billboardtype-w {
+    text-align: center;
+    color: #fff;   
 }
 
 .billboardtype {
-    color: #EEEEEE;   
-}
-.rightr{
-    float: right;
+    text-align: center;   
 }
 
-.dark {
-    background-color: #BFBFBF
-}
-
-.light {
-    background-color: #EAEAEA
-}
-
-.tbutton {
-    position: relative;
-    z-index: 10;
+.icon{
+    width: 50%;
+    margin: 0;
 }
 
 button {
@@ -128,14 +112,12 @@ button {
 
 .btn {
 	border: none;
-	font-family: inherit;
-	font-size: inherit;
+	
 	color: inherit;
 	background: none;
 	cursor: pointer;
-	padding: 25px 80px;
+	padding: 4px 10px 0;
 	display: inline-block;
-	margin: 15px 30px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 700;
@@ -163,14 +145,15 @@ button {
 }
 
 .btn-1 {
-	border: 3px solid #fff;
+	border: 3px solid #005A7B;
 	color: #fff;
 }
 
 .btn-1a:hover,
 .btn-1a:active {
-	color: #A5CC46;
+	color: #005A7B;
 	background: #fff;
+    border: 3px solid #fff; 
 }
 
 .btn-1b:after {
