@@ -44,6 +44,11 @@ a {
     color: #E0E0E1;
 }
 
+.icon {
+    max-width: 16em;
+    display: inline-block
+}
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
