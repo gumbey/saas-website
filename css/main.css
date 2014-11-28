@@ -44,13 +44,23 @@ a {
     color: #E0E0E1;
 }
 
-.icon {
-    max-width: 16em;
-    display: inline-block
-}
-
 *, *:before, *:after {
     box-sizing: inherit;
+}
+
+.icon {
+    max-width: 65px;
+    display: inline-block;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+.icon-wrap {
+    text-align: right;
+}
+
+.pushl {
+    margin-right: 5em;
 }
 
 body {
@@ -97,8 +107,11 @@ img {
 }
 
 .billboardtype-w {
-    text-align: center;
     color: #fff;   
+}
+
+.billboardtype-b {
+    color: #000;   
 }
 
 .billboardtype {
@@ -166,6 +179,7 @@ button {
 .billboard{
     background-image: url(../images/computer.jpg);
     background-size: cover;
+    background-position: center center;
 }
 
 .over {
@@ -232,5 +246,6 @@ button {
 }
 
 @media only screen and (min-width: 60em) {
-
+    
+    
 }
