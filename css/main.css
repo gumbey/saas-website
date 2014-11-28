@@ -100,11 +100,6 @@ img {
     text-align: center;   
 }
 
-.icon{
-    width: 50%;
-    margin: 0;
-}
-
 button {
     background-color: #A5CC46;
     text-decoration: none;
@@ -116,7 +111,7 @@ button {
 	color: inherit;
 	background: none;
 	cursor: pointer;
-	padding: 4px 10px 0;
+	padding: 12px 40px;
 	display: inline-block;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -174,7 +169,6 @@ button {
 }
 
 .nav{
-    text-align: rigt;
     display: none;
 }
 
