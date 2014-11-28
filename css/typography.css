@@ -81,7 +81,11 @@ sub {
 }
 
 .b-push {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
+}
+
+.b-push-t {
+  margin-top: 2rem;
 }
 
 .push-none, .push-0 {
