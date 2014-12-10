@@ -1,13 +1,17 @@
-.blockblue{
+.dblue{
     background-color: #005A7B;
 }
 
-.blocklgery {
-    background-color: #474646;
+.white {
+    background-color: white;
 }
 
-.blockwhite {
-    background-color: white;
+.balck {
+    background-color: black;
+}
+
+.green {
+    background-color: #B7D36A;
 }
 
 .lgery {
@@ -17,3 +21,6 @@
 .dgery {
     background-color: #333133;
 }
+
+.green {
+    background-color: #B7D36A;

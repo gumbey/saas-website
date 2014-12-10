@@ -69,7 +69,32 @@ body {
     background-color: #474646
 }
 
-h1{
+sub {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+.card-content {
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    padding: 1em 3em;
+}
+
+.card-content li {
+    border-bottom: thin dotted black;
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.align {
+    text-align: center;
+}
+
+h1 {
     color: #EEEEEE;
 }
 
@@ -121,6 +146,10 @@ img {
 button {
     background-color: #A5CC46;
     text-decoration: none;
+}
+
+.push-out {
+    margin: 1em
 }
 
 .btn {
@@ -203,6 +232,11 @@ button {
 }
 .bigb {
     border-radius: .5em;
+}
+
+.pricing {
+    max-width: 13em;
+    margin: 1em;
 }
 @media only screen and (min-width:25em) {
     
