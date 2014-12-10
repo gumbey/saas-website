@@ -59,6 +59,10 @@ a {
     text-align: right;
 }
 
+.unseen{
+    background-color: white;
+}
+
 .pushl {
     margin-right: 5%;
 }
