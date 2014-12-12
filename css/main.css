@@ -94,7 +94,7 @@ sub {
     text-align: center;
 }
 
-.starter {
+/*.starter {
     max-width: 358.131px;
 }
 
@@ -104,7 +104,7 @@ sub {
 
 .premium {
     max-width: 358.131px;
-}
+}*/
 
 .align {
     text-align: center;
@@ -186,21 +186,6 @@ button {
 	transition: all 0.3s;
 }
 
-.btn:before,
-.icon-heart:after,
-.icon-star:after,
-.icon-plus:after,
-.icon-file:before {
-	font-family: 'icomoon';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-	position: relative;
-}
-
 .btn-1 {
 	border: 3px solid #005A7B;
 	color: #fff;
@@ -264,6 +249,11 @@ button {
     margin: 0 auto;
 }
 
+.large-screen-b {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 .centered {
     text-align: center;
     align-content: center;
@@ -313,19 +303,6 @@ button {
     margin-right: 10%;
     }
     
-    .starter {
-        max-width: 358.131px;
-        margin-left: auto;
-    }
-
-    .standard {
-        max-width: 358.131px;
-    }
-
-    .premium {
-        max-width: 358.131px;
-        margin-right: auto;
-    }
 }
 
 @media only screen and (min-width: 60em) {
