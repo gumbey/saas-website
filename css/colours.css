@@ -11,7 +11,15 @@
 }
 
 .green {
-    background-color: #B7D36A;
+    background-color: #C5DC88;
+}
+
+.yellow {
+    background-color: #FFE188;
+}
+
+.pink {
+    background-color: #DA95D5;
 }
 
 .lgery {
@@ -20,8 +28,4 @@
 
 .dgery {
     background-color: #333133;
-}
-
-.green {
-    background-color: #B7D36A;
 }

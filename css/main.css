@@ -83,6 +83,7 @@ sub {
     text-decoration: none;
     list-style: none;
     padding: 1em 3em;
+    height: 213.081px
 }
 
 .card-content li {
@@ -93,18 +94,6 @@ sub {
 .card-text {
     text-align: center;
 }
-
-/*.starter {
-    max-width: 358.131px;
-}
-
-.standard {
-    max-width: 358.131px;
-}
-
-.premium {
-    max-width: 358.131px;
-}*/
 
 .align {
     text-align: center;
@@ -257,6 +246,17 @@ button {
     margin: 0 auto;
 }
 
+.max-pricing {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.fieldset {
+    display: block;
+    padding: 0;
+    border: 0px 
+}
+
 .large-screen-b {
     max-width: 1400px;
     margin: 0 auto;
@@ -315,6 +315,9 @@ button {
 
 @media only screen and (min-width: 60em) {
     
+    .max-pricing {
+        max-width: 1200px;
+    }
     
 }
 
