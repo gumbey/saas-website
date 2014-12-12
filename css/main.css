@@ -240,6 +240,14 @@ button {
     margin: 1em;
 }
 
+.date-width {
+    width: 3em;
+}
+
+.mid-width {
+    width: 50%;
+}
+
 .width {
     width: 100%;
 }

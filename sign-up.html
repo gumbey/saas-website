@@ -30,69 +30,75 @@
     
 </header>
 <main role='main' id="main">
-        <div class="centered">
+        <div class="dgery  centered">
                 <h2 class="island zetta">Sign Up</h2>
             </div>
     
             <form role="main" action="thank-you.html" method="get" class="large-screen gutter-2 algin ">
-                  <div class="algin pad-b">
-                    <input id="name" placeholder="First Name" class="width milli algin">
-                  </div>
-                  <div class="pad-b">
-                    <input id="name" placeholder="Last Name" class="width milli">
-                  </div>
-
-                  <div class="pad-b"> 
-                    <input type="e-mail" id="e-mail" placeholder="example@email.com" class="width algin milli">
-                  </div>
-
-                  <div class="pad-b">
-                    <input id="username" placeholder="Username" class="width milli">
-                  </div>
-
-                  <div class="pad-b">
-                    <input type="password" id="password" placeholder="password" class="width milli">
-                  </div>
-
-
-                <div class="align pad-b blockgery">
-                      <a href="thank-you.html"><button class="btn btn-1 btn-1a exa dblue algin" type="submit">Submit</button></a>
-                </div> 
                 
-        <div id="paid">
-            <h2 class="decorate-h2 exa pad-t-2">Billing Information</h2>
-            <div class="push mega">
-                <p class="push-0">Method of payment</p>
-                <span class="radio">
-                    <input type="radio" id="visa" name="level-of-awesomeness">
-                    <label for="visa">Visa</label>
-                </span>
-                <span class="radio">
-                    <input type="radio" id="mastercard" name="level-of-awesomeness">
-                    <label for="mastercard">Mastercard</label>
-                </span>
-                <span class="radio">
-                    <input type="radio" id="paypal" name="level-of-awesomeness">
-                    <label for="paypal">Paypal</label>
-                </span>
-            </div>
-            <div class="grid grid-stretch">
-                <div class="push-1-2 unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 mega card-number-pad width milli">
-                    <label for="cardnumber">Card Number</label>
-                    <input type="text" id="cardnumber">
+                <div id="paid">
+                    <h2 class="decorate-h2 exa">Billing Information</h2>
+                    <div class="push mega">
+                        <p class="push-0">Method of payment</p>
+                        <div class="radio">
+                            <input type="radio" id="visa" name="level-of-awesomeness">
+                            <label for="visa">Visa</label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" id="mastercard" name="level-of-awesomeness">
+                            <label for="mastercard">Mastercard</label>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="push-1-2 unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 mega milli">
+                            <label for="cardnumber">Card Number</label>
+                            <input class="mid-width milli" type="text" id="cardnumber">
+                        </div>
+                        <div class="push-1-2 unit unit-xs-1 unit-s-1-2 unit-m-1-3 unit-l-1-3 mega card-pad cardinfo"> 
+                            <p class="push-0">Expiration Date</p>
+                            <label for="month" class="micro">MM</label>
+                            <input class="date-width milli" type="text" id="month">
+                            <label for="year" class="micro">YY</label>
+                            <input class="date-width milli" type="text" id="year">
+                        </div>
+                        
+                        <div class="push-2 unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-1-2 mega cardinfo"> 
+                            <label for="cardexpiry">CVV<br><span class="micro">(three-digit security code)</span></label>
+                            <input class="date-width milli" type="text" id="cardexpiry">
+                        </div>
+                    </div>
                 </div>
-                <div class="push-1-2 unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-1-2 mega card-pad cardinfo"> 
-                    <label for="cardexpiry">Card Expiry<br><span class="milli">(MM/YY)</span></label>
-                    <input type="text" id="cardexpiry">
-                </div>
-                <div class="push-2 unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-1-2 mega cardinfo"> 
-                    <label for="cardexpiry">CVV<br><span class="milli">(three-digit security code)</span></label>
-                    <input type="text" id="cardexpiry">
-                </div>
-            </div>
-        </div>
-    </div>
+                </form>
+        <div class="dgery island">
+            <form role="main" action="thank-you.html" method="get" class="large-screen gutter-2 algin ">
+                  <div class="algin pad-b">
+                    <label for="name">Frist name</label>
+                    <input id="name" class="width milli algin">
+                  </div>
+                  <div class="pad-b">
+                    <label for="name">Last name</label>
+                    <input id="name" class="width milli">
+                  </div>
+
+                  <div class="pad-b">
+                    <label for="e-mail">E-mail</label>
+                    <input type="e-mail" id="e-mail" class="width algin milli">
+                  </div>
+
+                  <div class="pad-b">
+                    <label for="username">Username</label>
+                    <input id="username" class="width milli">
+                  </div>
+
+                  <div class="pad-b">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" class="width milli">
+                  </div>
             </form>
+        </div>    
+                <div class="align pad-b blockgery">
+                      <a class="btn btn-1 btn-1a exa dblue algin" href="thank-you.html"> Submit</a>
+                </div>
     
 </main>
     <footer class="grid footer island-half micro darkb">
