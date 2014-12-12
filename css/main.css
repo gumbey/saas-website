@@ -94,6 +94,18 @@ sub {
     text-align: center;
 }
 
+.starter {
+    max-width: 358.131px;
+}
+
+.standard {
+    max-width: 358.131px;
+}
+
+.premium {
+    max-width: 358.131px;
+}
+
 .align {
     text-align: center;
 }
@@ -245,6 +257,10 @@ button {
 
 .width {
     width: 100%;
+}
+
+.large-screen {
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -295,7 +311,21 @@ button {
     
     .pushl {
     margin-right: 10%;
-}
+    }
+    
+    .starter {
+        max-width: 358.131px;
+        margin-left: auto;
+    }
+
+    .standard {
+        max-width: 358.131px;
+    }
+
+    .premium {
+        max-width: 358.131px;
+        margin-right: auto;
+    }
 }
 
 @media only screen and (min-width: 60em) {
